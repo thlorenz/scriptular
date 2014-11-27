@@ -68,7 +68,9 @@ body {
 
 #container {
   width: 960px;
+  height: 800px;
   margin: 0 auto;
+  margin-left: 0;
 }
 
 #header {
@@ -119,7 +121,7 @@ a:hover {
 
 #main {
   float:left;
-  width:590px;
+  width:890px;
   background-color: #FFFFFF;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -131,6 +133,7 @@ a:hover {
   padding: 30px;
   overflow: hidden;
   color: #333;
+  min-height:830px;
 }
 
 #main h2 {
@@ -145,8 +148,8 @@ a:hover {
 #quick_reference {
   background-color: rgba(50,50,50,0.5);
   color: #FFF;
-  height:350px;
-  margin: 20px 0 0 650px;
+  height:870px;
+  margin: 0 0 0 950px;
   padding:20px 10px 0 20px;
   width: 280px;
   -webkit-border-top-right-radius: 10px;
@@ -159,7 +162,7 @@ a:hover {
 
 #quick_reference .scrollable {
   overflow:auto;
-  height:330px;
+  height:830px;
 }
 
 #quick_reference h2 {
@@ -211,7 +214,7 @@ input, textarea, #results, #groups {
 
 #expression input[name=expression] {
   margin: 0 4px;
-  width: 510px;
+  width: 810px;
 }
 
 #expression input[name=option] {
@@ -225,7 +228,7 @@ input, textarea, #results, #groups {
 }
 
 #test_strings textarea {
-  height: 95px;
+  height: 350px;
   width: 100%;
 }
 
@@ -238,6 +241,10 @@ input, textarea, #results, #groups {
   padding: 30px;
   background-color: #eef;
   border-top: 1px solid #dde;
+}
+
+#intro {
+  display: none;
 }
 
 #results li {
